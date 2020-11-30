@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1020px" height="594px" viewBox="0 0 1020 594" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Sales Page</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1041" height="614" rx="3.75"></rect>
+        <filter x="-4.4%" y="-5.3%" width="108.9%" height="113.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0862745098   0 0 0 0 0.0980392157   0 0 0 0 0.160784314  0 0 0 0.11 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-4" x="0" y="0" width="970" height="617" rx="5"></rect>
+        <path d="M130,529.637564 C130,527.628593 131.62883,526 133.640492,526 L834.359508,526 C836.370096,526 838,527.637572 838,529.637564 L838,617 L130,617 L130,529.637564 Z" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Features-V2" transform="translate(-210.000000, -2546.000000)">
+            <g id="Sales-Page" transform="translate(203.000000, 2526.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g filter="url(#filter-3)" mask="url(#mask-2)">
+                    <g transform="translate(32.000000, 35.000000)">
+                        <path d="M1.53893215,18.5 L969.461068,18.5" id="Line" stroke="#E4E7E9" stroke-width="1" fill="none" stroke-linecap="square"></path>
+                        <g id="Rectangle-39" stroke="none" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <rect stroke="#E4E7E9" stroke-width="2" x="1" y="1" width="968" height="615" rx="5"></rect>
+                        </g>
+                        <rect id="Rectangle-12-Copy-35" stroke="none" fill="#209AF5" fill-rule="evenodd" x="2" y="62" width="966" height="288"></rect>
+                        <rect id="Rectangle-12-Copy-12" stroke="none" fill="#AEBBC5" fill-rule="evenodd" x="130" y="25" width="68" height="17" rx="1.91999991"></rect>
+                        <g id="Group-13-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(132.000000, 403.000000)">
+                            <rect id="Rectangle-12-Copy-46" fill="#AEBBC5" x="0" y="0" width="154.7" height="13.25" rx="1.53599984"></rect>
+                            <rect id="Rectangle-12-Copy-47" fill="#E0E7ED" x="0" y="29.15" width="455" height="7.95" rx="1.19999995"></rect>
+                            <rect id="Rectangle-12-Copy-50" fill="#E0E7ED" x="0" y="45.05" width="351" height="7.95" rx="1.19999995"></rect>
+                        </g>
+                        <g id="Group-35-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(783.000000, 24.000000)">
+                            <rect id="Rectangle-12-Copy-4" fill="#009DFC" x="0" y="0" width="57" height="22" rx="1.93600008"></rect>
+                            <rect id="Rectangle-12-Copy-4" fill="#FFFFFF" x="9.06818182" y="8.25" width="38.8636364" height="5.5" rx="0.968000042"></rect>
+                        </g>
+                        <path d="M837.165665,303 L475.834335,303 C474.821312,303 474,302.047095 474,300.874871 L474,107.122608 C474,105.950384 474.821312,105 475.834335,105 L836.241962,105 C837.764765,105 839,106.429357 839,108.193996 L839,300.874871 C839,302.047095 838.178688,303 837.165665,303" id="Fill-1081" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        <g id="Rectangle-7-Copy" stroke="none" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <path stroke="#E0E7ED" stroke-width="1.81900014" d="M130.9095,616.0905 L837.0905,616.0905 L837.0905,529.637564 C837.0905,528.136591 835.864512,526.9095 834.359508,526.9095 L133.640492,526.9095 C132.131381,526.9095 130.9095,528.130648 130.9095,529.637564 L130.9095,616.0905 Z"></path>
+                        </g>
+                        <rect id="Rectangle-12-Copy-17" stroke="none" fill="#AEBBC5" fill-rule="evenodd" x="159" y="544" width="12" height="12" rx="2.18280004"></rect>
+                        <polygon id="Fill-1167" stroke="none" fill="#A7BDC7" fill-rule="evenodd" points="500 280 817 280 817 289 500 289"></polygon>
+                        <polygon id="Fill-1168" stroke="none" fill="#899DA4" fill-rule="evenodd" points="494 280 608 280 608 289 494 289"></polygon>
+                        <path d="M614,284.500737 C614,288.641615 610.641945,292 606.5,292 C602.358055,292 599,288.641615 599,284.500737 C599,280.358385 602.358055,277 606.5,277 C610.641945,277 614,280.358385 614,284.500737" id="Fill-1169" stroke="none" fill="#009DFC" fill-rule="evenodd"></path>
+                        <path d="M669.205941,198.902982 L642.384738,183.484046 C639.99061,182.108303 637,183.829002 637,186.580488 L637,217.420402 C637,220.171888 639.99061,221.892587 642.384738,220.514803 L669.205941,205.095867 C671.59802,203.720124 671.59802,200.280766 669.205941,198.902982" id="Fill-1170" stroke="none" fill="#B2BFC5" fill-rule="evenodd"></path>
+                        <rect id="Rectangle-12-Copy-44" stroke="none" fill="#AEBBC5" fill-rule="evenodd" x="738" y="536" width="68" height="25" rx="2.18280004"></rect>
+                        <rect id="Rectangle-12-Copy-18" stroke="none" fill="#E0E7ED" fill-rule="evenodd" x="187" y="547" width="97" height="8" rx="1.81900014"></rect>
+                        <rect id="Rectangle-12-Copy-43" stroke="none" fill="#E0E7ED" fill-rule="evenodd" x="436" y="547" width="48" height="8" rx="1.81900014"></rect>
+                        <rect id="Rectangle-12-Copy-45" stroke="none" fill="#E0E7ED" fill-rule="evenodd" x="749" y="547" width="48" height="8" rx="1.81900014"></rect>
+                        <g id="Group-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(132.000000, 133.000000)">
+                            <rect id="Rectangle-12-Copy-46" fill="#FFFFFF" x="0" y="0" width="205.4" height="23.4492234" rx="1.53599984"></rect>
+                            <rect id="Rectangle-12-Copy-47" fill="#97D4FA" x="0" y="39.0820391" width="247" height="7.81640781" rx="1.19999995"></rect>
+                            <rect id="Rectangle-12-Copy-48" fill="#97D4FA" x="0" y="54.7148547" width="221" height="7.81640781" rx="1.19999995"></rect>
+                            <rect id="Rectangle-12-Copy-49" fill="#97D4FA" x="0" y="70.3476703" width="78" height="7.81640781" rx="1.19999995"></rect>
+                            <g id="Group-35-Copy-3" transform="translate(1.033473, 113.337913)">
+                                <rect id="Rectangle-12-Copy-4" fill="#FFFFFF" x="0.0283388657" y="0" width="93.6" height="31.6165963" rx="2.47384026"></rect>
+                                <rect id="Rectangle-12-Copy-4" fill="#ABBCC6" x="18.1932385" y="11.5659835" width="56.6641669" height="8.48462938" rx="1.23692013"></rect>
+                            </g>
+                        </g>
+                        <path d="M133.557066,570 L838.42757,570" id="Line-Copy-2" stroke="#E0E7ED" stroke-width="2" fill="none" stroke-linecap="square"></path>
+                        <rect id="Rectangle-12-Copy-46" stroke="none" fill="#AEBBC5" fill-rule="evenodd" x="132" y="490" width="155" height="12" rx="1.53599984"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

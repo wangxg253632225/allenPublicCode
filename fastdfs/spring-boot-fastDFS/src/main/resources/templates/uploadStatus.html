@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h1>Spring Boot - Upload Status</h1>
+
+<div th:if="${message}">
+    <h2 th:text="${message}"/>
+</div>
+
+<div th:if="${path}">
+    <h2>file path url </h2>
+    <a th:target="_blank" th:href="@{'http://192.168.100.102/'+${path}}"><h2 th:text="${path}"/></a>
+    <a th:href="@{'/download?fileName='+${path}}">文件下载</a><br/>
+    <a th:href="@{'/getFile?fileName='+${path}}">文件信息</a><br/>
+    <a th:href="@{'/delete?fileName='+${path}}">删除文件</a>
+</div>
+
+</body>
+</html>

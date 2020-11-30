@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+	http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+	<context:annotation-config />
+	<context:component-scan base-package="com.dongnaoedu.*" />
+	<!-- <tx:annotation-driven proxy-target-class="true"/> -->
+	<context:property-placeholder location="classpath:*.properties" /><!-- 
+		加载配置文件 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:mysql://192.168.100.100:3306/test?characterEncoding=utf8" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+		<!-- 连接被泄露时是否打印 -->
+		<property name="logAbandoned" value="true" />
+		<property name="initialSize" value="2" />
+		<property name="maxActive" value="2" />
+		<!--minIdle: 最小空闲连接 -->
+		<property name="minIdle" value="2" />
+		<!--maxIdle: 最大空闲连接 -->
+		<property name="maxIdle" value="2" />
+		<!--maxWait: 超时等待时间以毫秒为单位 1000等于60秒 -->
+		<property name="maxWait" value="1000" />
+		<property name="poolPreparedStatements" value="true" />
+	</bean>
+
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!--dataSource属性指定要用到的连接池 -->
+		<property name="dataSource" ref="dataSource" />
+		<!-- 所有配置的mapper文件 -->
+		<property name="mapperLocations"
+			value="classpath*:com/dongnaoedu/rabbitmq/mapper/*.xml" />
+	</bean>
+
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.dongnaoedu.rabbitmq.mapper" />
+	</bean>
+	
+	<import resource="spring-rabbit.xml"/>
+</beans>
